@@ -1,4 +1,3 @@
-import React from 'react'
 import Link from 'next/link'
 import { Menu, MenuButton, MenuList, MenuItem, IconButton, Flex, Box, Spacer } from '@chakra-ui/react'
 import { FcMenu, FcHome, FcAbout } from 'react-icons/fc'
@@ -12,7 +11,7 @@ const Navbar = () => (
         
         <Box fontSize='3xl' color= 'blue.400' fontWeight='bold' paddingLeft='3'>
             <Image src={bannerImage} alt='banner image' width={100} height={60} />
-            <Link href='/' paddingLeft='2'>Jim Boonie's "Free" Real Estate</Link>
+            <Link href='/' paddingLeft='2'>Jim Boonie&apos;s &quot;Free&quot; Real Estate</Link>
         </Box>
         <Spacer/>
         <Box>
